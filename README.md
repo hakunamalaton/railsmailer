@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Create a model which inherits from MailForm 
+In file models, create a Contact model
 
-Things you may want to cover:
+## Config environment
+You must have a look at section 5.2 (https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Sending emails
+Use delivery method. This method applied to MailForm instances. Authentication is processed. If it's successful, email will be sent by smtp protocol.
